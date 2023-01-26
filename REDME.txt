@@ -1,0 +1,4 @@
+Skorzystaj z danych clean_stations.csv oraz clean_measure.csv. Na podstawie tych zbiorów stwórz bazę danych i tabelę, do której będzie można się odwoływać, na przykład poprzez wywołanie:
+
+conn.execute("SELECT * FROM stations LIMIT 5").fetchall()
+Wynik pracy umieść na GitHubie w formie skryptu, a link prześlij Mentorowi.
